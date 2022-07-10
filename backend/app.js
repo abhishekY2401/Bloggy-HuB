@@ -18,6 +18,7 @@ mongoose
 
 app.use("/api/auth", () => require("./routes/auth"));
 app.use("/api/users", () => require("./routes/users"));
+app.use("/api/users/posts", () => require("./routes/posts"));
 
 app.listen(5000, () => {
   console.log("App is running");
