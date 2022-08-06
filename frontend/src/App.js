@@ -5,6 +5,7 @@ import BlogList from "./blogs/BlogPosting";
 import productivity from "./images/productivity.jpg";
 import desktopsetup from "./images/desktop-setup.jpg";
 import tech from "./images/tech-stuff.jpg";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           description="lorem ipsum ok bye fir milte hai chalo"
         />
       </div>
+      <Footer />
     </div>
   );
 }
