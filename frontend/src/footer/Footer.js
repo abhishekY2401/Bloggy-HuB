@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-black mt-20 text-gray-100">
+    <div className="bg-black text-gray-100">
       <div className="p-20 flex justify-around">
         <div>
           <p className="font-bold text-gray-100 text-3xl">BloggY huB</p>
