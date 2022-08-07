@@ -1,29 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Topbar() {
   return (
     <div className="flex align-items-center justify-evenly bg-slate-800 p-5 border-b-2  ">
-      <p className="font-bold text-white text-3xl">BloggY huB</p>
+      <a href="/" className="font-bold text-white text-3xl">
+        BloggY huB
+      </a>
 
       <nav class="flex justify-center text-xl align-items-center space-x-4">
-        <a
-          href="/"
+        <Link
+          to="/about"
           class="font-600 px-3 py-1 text-gray-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           About
-        </a>
-        <a
-          href="/"
+        </Link>
+        <Link
+          to="/signup"
           class="font-600 px-3 py-1 text-gray-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           Signup
-        </a>
-        <a
-          href="/"
+        </Link>
+        <Link
+          to="/login"
           class="font-600 px-3 py-1 text-gray-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           Login
-        </a>
+        </Link>
       </nav>
 
       <div className="relative">
