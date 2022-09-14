@@ -68,9 +68,9 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="text-center">
+        <div className="text-center d-flex flex-column items-center">
           <p className="font-bold text-xl">Quick Links</p>
-          <nav>
+          <nav className="pt-3">
             <ul>
               <li>
                 <a href="/">Guide</a>

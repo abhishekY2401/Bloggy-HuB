@@ -27,30 +27,35 @@ function Home() {
           <img src={creative_blogs} alt="blog" className="object-contain" />
         </div>
       </div>
-      <div>
-        <h1 className="text-2xl text-center mt-16 font-bold">Recent Blogs</h1>
-      </div>
-      <div className="flex justify-around mt-20">
-        <BlogList
-          url={productivity}
-          text="productivity"
-          title="5 Tips for Productivity"
-          description="lorem ipsum ok bye fir milte hai chalo"
-        />
+      <div className="bg-gray-200 pb-20">
+        <div>
+          <h1 className="text-2xl text-center pt-16 font-bold">Recent Blogs</h1>
+        </div>
+        <div className="flex justify-around mt-20">
+          <BlogList
+            url={productivity}
+            text="Technology"
+            category="Technology"
+            title="Why is the Tesla Cybertruck designed the way it is?"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          />
 
-        <BlogList
-          url={desktopsetup}
-          text="productivity"
-          title="5 Tips for Productivity"
-          description="lorem ipsum ok bye fir milte hai chalo"
-        />
+          <BlogList
+            url={desktopsetup}
+            text="techology"
+            category="Technology"
+            title="What's new in tech 2022 and how tech can revolutionize whole world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          />
 
-        <BlogList
-          url={tech}
-          text="productivity"
-          title="5 Tips for Productivity"
-          description="lorem ipsum ok bye fir milte hai chalo"
-        />
+          <BlogList
+            url={tech}
+            text="automobile"
+            category="Automobile"
+            title="Race to your heart content is blazingly fast"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.o"
+          />
+        </div>
       </div>
     </>
   );
